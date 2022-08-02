@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:iconTint="@android:color/white"
+            android:title="@string/home"/>
+
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_baseline_star_24"
+            android:iconTint="@android:color/white"
+            android:title="@string/favorites"/>
+        <item
+            android:id="@+id/nav_bookmarks"
+            android:icon="@drawable/ic_baseline_bookmarks_24"
+            android:iconTint="@android:color/white"
+            android:title="@string/bookmarks"/>
+
+        <item
+            android:id="@+id/nav_post"
+            android:icon="@drawable/ic_articles"
+            android:iconTint="@android:color/white"
+            android:title="@string/post"/>
+    </group>
+</menu>
